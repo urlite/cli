@@ -15,8 +15,10 @@ limitations under the License.
 */
 package main
 
-import "github.com/urlite/cli/cmd"
+import (
+	"github.com/urlite/cli/cmd/urlite"
+)
 
 func main() {
-	cmd.Execute()
+	urlite.Execute()
 }
